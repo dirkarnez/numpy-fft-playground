@@ -1,7 +1,7 @@
-python-playground
-=================
-[dirkarnez/python-portable](https://github.com/dirkarnez/python-portable)
+numpy-fft-playground
+====================
+### Matlab
+![](./matlab/0.7_magnitude_50hz.jpg)
 
-### Installing packages
-1. fill in package name with version to `requirements.txt`
-2. `install-package.cmd`
+### numpy
+![](./output.jpg)
