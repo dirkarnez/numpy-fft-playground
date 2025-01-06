@@ -32,8 +32,7 @@ duration = 0.5
 number_of_samples = sample_frequency * duration
 time_intervals = np.arange(0, duration, 1/sample_frequency)
 
-cos = 0.7 * np.cos(2 * np.pi * 50 * time_intervals)
-
+cos = 0.7 * np.cos(2 * np.pi * 5000 * time_intervals)
 
 # Serializing json
 # json_object = json.dumps({
@@ -49,7 +48,7 @@ cos = 0.7 * np.cos(2 * np.pi * 50 * time_intervals)
 np.savetxt("cos_y.csv", cos)
 np.savetxt("cos_x.csv", time_intervals)
 
-S = np.fft.fft(cos)
+S = np.fft.fft(cos, norm="forward")        
 
 S_oneside = S[:int(number_of_samples/2)]
 f = sample_frequency * np.arange(0, number_of_samples/2) / number_of_samples
