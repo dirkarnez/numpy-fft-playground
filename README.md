@@ -19,8 +19,13 @@ numpy-fft-playground
   - parametic signal (math functions like sin / cos / etc.)
 - Sampling Frequency affects the frequency range
   - Nyquist–Shannon sampling theorem
-- if N is odd
-  - ceil(N / )
-- if N is even
-  - (N/2) + 1
+    - chop the DFT output by "half" (the upper half is aliasing)
+      - if N is odd
+        - ceil(N / 2)
+      - if N is even
+        - (N/2) + 1
 - Bigger the N, the narrower each freq bin (more bin)
+  - can append zeros for make N bigger
+    - no problem because DFT tells the pure sin waves components
+      - zeros does not belong to any pure sin waves
+      - the real data still have the same pure sin waves components
