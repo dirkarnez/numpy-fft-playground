@@ -2,6 +2,13 @@ numpy-fft-playground
 ====================
 - [How to Do FFT in MATLAB - YouTube](https://www.youtube.com/watch?v=XEbV7WfoOSE)
 - [Discrete Fourier Transform (numpy.fft) — NumPy v1.26 Manual](https://numpy.org/doc/stable/reference/routines.fft.html)
+- [**Understanding the Discrete Fourier Transform and the FFT - YouTube**](https://www.youtube.com/watch?v=QmgJmh2I3Fw)
+- [Discrete Fourier Transform - Simple Step by Step - YouTube](https://www.youtube.com/watch?v=mkGsMWi_j4Q)
+- [Python - Convert Complex Number to Polar Form - Data Science Parichay](https://datascienceparichay.com/article/python-complex-number-polar-form/)
+- [量 (數學) - 維基百科，自由的百科全書](https://zh.wikipedia.org/zh-tw/%E9%87%8F_(%E6%95%B0%E5%AD%A6))
+- [04 - How to Represent Complex Numbers in Polar Form - YouTube](https://www.youtube.com/watch?v=pvPRTHWvMU4)
+- [**How to Write a Complex Number in Polar Form, Example with 3 + 3i - YouTube**](https://www.youtube.com/watch?v=ncXI47FIgP8)
+- [Complex Numbers in Polar Form - YouTube](https://www.youtube.com/watch?v=wed_lYcslRM)
 
 ### Matlab
 ![](./matlab/0.7_magnitude_50hz.jpg)
