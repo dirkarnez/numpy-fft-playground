@@ -92,11 +92,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 sample_frequency = 1000
-period_time = 1/sample_frequency;
+time_needed_for_each_sample = 1/sample_frequency;
 # duration = 0.5
 
 # number_of_samples = 4
-time_intervals = np.arange(0, period_time * 4, period_time)
+time_intervals = np.arange(0, period_time * 4, time_needed_for_each_sample)
 
 # cos = 0.7 * np.cos(2 * np.pi * 5000 * time_intervals)
 
@@ -116,8 +116,16 @@ signal = np.array([1, 2, 2, 0])
 # np.savetxt("cos_y.csv", cos)
 # np.savetxt("cos_x.csv", time_intervals)
 
+def get_polar_form(z):
+    # magnitude
+    mag = np.abs(z)
+    # phase angle in radians
+    phase = np.angle(z)
+    return (mag, phase)
+ 
 S = np.fft.fft(np.array([1, 2, 2, 0]))        
 print(S)
+print([get_polar_form(s) for s in S ])
 
 # S_oneside = S[:int(number_of_samples/2)]
 # f = sample_frequency * np.arange(0, number_of_samples/2) / number_of_samples
