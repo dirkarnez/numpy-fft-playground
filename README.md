@@ -8,3 +8,19 @@ numpy-fft-playground
 
 ### numpy
 ![](./output.jpg)
+
+### Notes
+- Some discrete signal DOES NOT depend on sampling Frequency:
+  - Hard-coded signals
+  - Constant signals
+  - Random signals
+- Some discrete signal DOES depend on sampling Frequency:
+  - Sampled signal (audio)
+  - parametic signal (math functions like sin / cos / etc.)
+- Sampling Frequency affects the frequency range
+  - Nyquist–Shannon sampling theorem
+- if N is odd
+  - ceil(N / )
+- if N is even
+  - (N/2) + 1
+- Bigger the N, the narrower each freq bin (more bin)
