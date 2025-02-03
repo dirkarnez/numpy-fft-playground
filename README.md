@@ -17,6 +17,7 @@ numpy-fft-playground
 - Some discrete signal DOES depend on sampling Frequency:
   - Sampled signal (audio)
   - parametic signal (math functions like sin / cos / etc.)
+- For `fft()` operation, we just need 1d array of y values (aka voltage)
 - Sampling Frequency affects the frequency range
   - Nyquist–Shannon sampling theorem
     - chop the DFT output by "half" (the upper half is aliasing)
