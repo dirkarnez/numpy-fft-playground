@@ -37,4 +37,4 @@ numpy-fft-playground
     - Computers always look for numeric data for the primitive data type
     - and we can always normalize the numeric representation by dividing pi again
       - x / 3.14 = ? (unit is pi)
-        - if ? is 2, then we can read as 180 degree
+        - if ? is 2, then we can read as 360 degree
